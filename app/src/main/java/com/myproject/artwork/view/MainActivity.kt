@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initialView() {
         val homeFragment = HomeFragment()
-        val favoriteFragment = FavortiteFragment()
+        val favoriteFragment = FavoriteFragment()
         val settingFragment = SettingFragment()
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation)
 
